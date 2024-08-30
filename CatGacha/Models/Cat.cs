@@ -2,7 +2,7 @@
 {
     public enum Zodiac
     {
-        A, B, C, D, E, F, G, H, I, J, K, L
+        Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig
     }
     public class Cat
     {
@@ -12,6 +12,7 @@
         public Zodiac Zodiac { get; set; }
         public string Snack { get; set; }
         public string Personality { get; set; }
-        public ICollection<CatOwnership> CatOwnerships { get; set; }
+        public string CatImageLink { get; set; }
+        public ICollection<CatOwnership>? CatOwnerships { get; set; }
     }
 }
