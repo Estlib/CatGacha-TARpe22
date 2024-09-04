@@ -1,4 +1,5 @@
 using CatGacha.Data;
+/*using Microsoft.AspNetCore.Authentication.Cookies;*/
 using Microsoft.EntityFrameworkCore;
 
 internal class Program
@@ -11,8 +12,21 @@ internal class Program
         builder.Services.AddControllersWithViews();
         builder.Services.AddDbContext<GatchaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("GatchaContext")));
         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+/*        builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(
+            options =>
+            {
+                options.ExpireTimeSpan = TimeSpan.FromDays(30);
+                options.SlidingExpiration = true;
+                options.AccessDeniedPath = "/Home/Forbidden/";
+            }
+            );*/
 
         var app = builder.Build();
+
+/*        var cookiePolicyOptions = new CookiePolicyOptions
+        {
+            MinimumSameSitePolicy = SameSiteMode.Strict,
+        };*/
 
         // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
@@ -21,13 +35,14 @@ internal class Program
             // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
             app.UseHsts();
         }
-
+/*        app.UseCookiePolicy(cookiePolicyOptions);*/
         app.UseHttpsRedirection();
         app.UseStaticFiles();
 
         app.UseRouting();
 
-        app.UseAuthorization();
+        app.UseAuthentication();
+/*        app.UseAuthorization();*/
 
         app.MapControllerRoute(
             name: "default",
