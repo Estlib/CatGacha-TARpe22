@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5782D581-E5D6-417F-9CFF-DFC80F7CC19F}|CatGacha.Data\\CatGacha.Data.csproj|c:\\users\\jyri.vaitmaa\\source\\repos\\catgacha\\catgacha.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5782D581-E5D6-417F-9CFF-DFC80F7CC19F}|CatGacha.Data\\CatGacha.Data.csproj|solutionrelative:catgacha.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E26B6F5-11CF-4F38-9921-31A77F7C2608}|CatGacha.Core\\CatGacha.Core.csproj|c:\\users\\jyri.vaitmaa\\source\\repos\\catgacha\\catgacha.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E26B6F5-11CF-4F38-9921-31A77F7C2608}|CatGacha.Core\\CatGacha.Core.csproj|solutionrelative:catgacha.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2484D-2E25-408E-9458-3DA464EB2A5B}|CatGacha.ApplicationServices\\CatGacha.ApplicationServices.csproj|c:\\users\\jyri.vaitmaa\\source\\repos\\catgacha\\catgacha.applicationservices\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC2484D-2E25-408E-9458-3DA464EB2A5B}|CatGacha.ApplicationServices\\CatGacha.ApplicationServices.csproj|solutionrelative:catgacha.applicationservices\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89B8613F-3A7A-40AE-A872-6F142E8B12D0}|CatGacha\\CatGacha.csproj|c:\\users\\jyri.vaitmaa\\source\\repos\\catgacha\\catgacha\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89B8613F-3A7A-40AE-A872-6F142E8B12D0}|CatGacha\\CatGacha.csproj|solutionrelative:catgacha\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 324,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +70,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "CatGacha.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Data\\Class1.cs",
+              "RelativeToolTip": "CatGacha.Data\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T12:29:42.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "CatGacha.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\Class1.cs",
+              "RelativeToolTip": "CatGacha.Core\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T12:29:08.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.ApplicationServices\\Class1.cs",
+              "RelativeDocumentMoniker": "CatGacha.ApplicationServices\\Class1.cs",
+              "ToolTip": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.ApplicationServices\\Class1.cs",
+              "RelativeToolTip": "CatGacha.ApplicationServices\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T12:28:35.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CatGacha.csproj",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\CatGacha.csproj",
               "RelativeDocumentMoniker": "CatGacha\\CatGacha.csproj",
@@ -71,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Users\\Index.cshtml",
@@ -83,20 +134,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Inventory\\Index.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Inventory\\Index.cshtml",
               "ToolTip": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Inventory\\Index.cshtml",
               "RelativeToolTip": "CatGacha\\Views\\Inventory\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAAAaAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-30T10:33:11.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "CatGacha\\Data\\DbInitializer.cs",
@@ -108,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GatchaContext.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Data\\GatchaContext.cs",
               "RelativeDocumentMoniker": "CatGacha\\Data\\GatchaContext.cs",
@@ -120,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Program.cs",
               "RelativeDocumentMoniker": "CatGacha\\Program.cs",
@@ -132,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CatOwnership.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Models\\CatOwnership.cs",
               "RelativeDocumentMoniker": "CatGacha\\Models\\CatOwnership.cs",
@@ -144,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Home\\Index.cshtml",
