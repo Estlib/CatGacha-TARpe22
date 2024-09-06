@@ -1,6 +1,6 @@
 ﻿using CatGacha.Models;
 using Microsoft.EntityFrameworkCore;
-
+//deprecated
 namespace CatGacha.Data
 {
     public class GatchaContext : DbContext

@@ -1,6 +1,6 @@
 ﻿using CatGacha.Models;
 using System.ComponentModel.DataAnnotations;
-
+//deprecated
 namespace CatGacha.Data
 {
     public class DbInitializer

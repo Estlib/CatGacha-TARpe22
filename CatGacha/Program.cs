@@ -10,6 +10,8 @@ internal class Program
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
+
+        // Database context 
         builder.Services.AddDbContext<GatchaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("GatchaContext")));
         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 /*        builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(
