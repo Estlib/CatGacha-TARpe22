@@ -1,5 +1,7 @@
-using CatGacha.Data;
 /*using Microsoft.AspNetCore.Authentication.Cookies;*/
+using CatGacha.Core.Domain;
+using CatGacha.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 internal class Program
@@ -12,23 +14,16 @@ internal class Program
         builder.Services.AddControllersWithViews();
 
         // Database context 
-        builder.Services.AddDbContext<GatchaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("GatchaContext")));
+        builder.Services.AddDbContext<CatGachaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CatGachaConnection")));
         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-/*        builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(
-            options =>
-            {
-                options.ExpireTimeSpan = TimeSpan.FromDays(30);
-                options.SlidingExpiration = true;
-                options.AccessDeniedPath = "/Home/Forbidden/";
-            }
-            );*/
+
+        // user
+        builder.Services.AddIdentity<ApplicationUser, IdentityRole> (options => options.SignIn.RequireConfirmedAccount = true)
+            .AddEntityFrameworkStores<CatGachaContext>()
+            .AddDefaultTokenProviders()
+            .AddDefaultUI();
 
         var app = builder.Build();
-
-/*        var cookiePolicyOptions = new CookiePolicyOptions
-        {
-            MinimumSameSitePolicy = SameSiteMode.Strict,
-        };*/
 
         // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
@@ -39,7 +34,7 @@ internal class Program
         }
 /*        app.UseCookiePolicy(cookiePolicyOptions);*/
         app.UseHttpsRedirection();
-        app.UseStaticFiles();
+        app.UseStaticFiles();  //later add here multiplefileupload
 
         app.UseRouting();
 
