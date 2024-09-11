@@ -3,3 +3,83 @@
 *@
 @{
 }
+@model CatGacha.Models.Accounts.LoginViewModel
+@{
+    ViewBag.Title = "Logi sisse";
+}
+<div class="row">
+    <div class="col-md-8">
+        <h1>Logi sisse oma CatGacha kasutajaga</h1>
+        <hr />
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox">
+                    <label asp-for="KeepLoggedIn">
+                        <input asp-for="Email" class="form-control" />
+                        @Html.DisplayNameFor(m => m.KeepLoggedIn)
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit"
+                    class="btn btn-primary"
+                    style="width:auto">
+                Logi sisse
+            </button>
+
+            <div>
+                <a asp-action="ForgotPassword" class="btn btn-warning">
+                    Unustasin oma salasõna :c
+                </a>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <h1>
+            Välise kasutajaga sisselogimine:
+        </h1>
+        <hr />
+        @{
+            if(Model.ExternalLoginSessions.Count == 0)
+            {
+                <div>Välist sisselogimist ei ole</div>
+            }
+            else
+            {
+                <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnURL">
+                    <div>
+                        @foreach(var provider in Model.ExternalLoginSessions)
+                        {
+                            <button type="submit"
+                                    class="btn btn-primary"
+                                    style="width:auto"
+                                    name="provider"
+                                    value="@provider.Name"
+                                    title="Logi sisse kasutades oma @provider.DisplayName kasutajat">
+                                @provider.DisplayName
+                            </button>
+                        }
+                    </div>
+                </form>
+            }
+        }
+    </div>
+
+
+</div>
