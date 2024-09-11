@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatGacha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aa47208a19981bf5149e1431187c99e2900267e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d121f84fb38d8ed4015acd72264e109c733bb71f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatGacha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatGacha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
