@@ -1,4 +1,5 @@
 ﻿using CatGacha.Core.Domain;
+using CatGacha.Core.Dto.AccountDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

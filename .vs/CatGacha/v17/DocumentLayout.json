@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E26B6F5-11CF-4F38-9921-31A77F7C2608}|CatGacha.Core\\CatGacha.Core.csproj|c:\\users\\jyri.vaitmaa\\source\\repos\\catgacha\\catgacha.core\\dto\\accountdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E26B6F5-11CF-4F38-9921-31A77F7C2608}|CatGacha.Core\\CatGacha.Core.csproj|solutionrelative:catgacha.core\\dto\\accountdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E26B6F5-11CF-4F38-9921-31A77F7C2608}|CatGacha.Core\\CatGacha.Core.csproj|c:\\users\\jyri.vaitmaa\\source\\repos\\catgacha\\catgacha.core\\dto\\accountdtos\\applicationuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E26B6F5-11CF-4F38-9921-31A77F7C2608}|CatGacha.Core\\CatGacha.Core.csproj|solutionrelative:catgacha.core\\dto\\accountdtos\\applicationuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEC2484D-2E25-408E-9458-3DA464EB2A5B}|CatGacha.ApplicationServices\\CatGacha.ApplicationServices.csproj|c:\\users\\jyri.vaitmaa\\source\\repos\\catgacha\\catgacha.applicationservices\\services\\accountsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC2484D-2E25-408E-9458-3DA464EB2A5B}|CatGacha.ApplicationServices\\CatGacha.ApplicationServices.csproj|solutionrelative:catgacha.applicationservices\\services\\accountsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E26B6F5-11CF-4F38-9921-31A77F7C2608}|CatGacha.Core\\CatGacha.Core.csproj|c:\\users\\jyri.vaitmaa\\source\\repos\\catgacha\\catgacha.core\\serviceinterface\\iaccountsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,45 +155,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\Dto\\AccountDtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "CatGacha.Core\\Dto\\AccountDtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\Dto\\AccountDtos\\LoginDto.cs",
-              "RelativeToolTip": "CatGacha.Core\\Dto\\AccountDtos\\LoginDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Title": "AccountsServices.cs",
+              "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.ApplicationServices\\Services\\AccountsServices.cs",
+              "RelativeDocumentMoniker": "CatGacha.ApplicationServices\\Services\\AccountsServices.cs",
+              "ToolTip": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.ApplicationServices\\Services\\AccountsServices.cs",
+              "RelativeToolTip": "CatGacha.ApplicationServices\\Services\\AccountsServices.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAADwv1EAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:02:58.372Z",
+              "WhenOpened": "2024-09-13T10:06:30.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\Dto\\AccountDtos\\ApplicationUserDto.cs",
-              "RelativeDocumentMoniker": "CatGacha.Core\\Dto\\AccountDtos\\ApplicationUserDto.cs",
-              "ToolTip": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\Dto\\AccountDtos\\ApplicationUserDto.cs",
-              "RelativeToolTip": "CatGacha.Core\\Dto\\AccountDtos\\ApplicationUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:59:11.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IAccountsServices.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\ServiceInterface\\IAccountsServices.cs",
               "RelativeDocumentMoniker": "CatGacha.Core\\ServiceInterface\\IAccountsServices.cs",
               "ToolTip": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\ServiceInterface\\IAccountsServices.cs",
               "RelativeToolTip": "CatGacha.Core\\ServiceInterface\\IAccountsServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T09:56:28.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\Login.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\Login.cshtml",
@@ -210,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\Register.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\Register.cshtml",
@@ -223,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\ChangePassword.cshtml",
@@ -236,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ResetPasswordViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Models\\Accounts\\ResetPasswordViewModel.cs",
               "RelativeDocumentMoniker": "CatGacha\\Models\\Accounts\\ResetPasswordViewModel.cs",
@@ -249,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\ResetPassword.cshtml",
@@ -262,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\ForgotPassword.cshtml",
@@ -275,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ResetPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\ResetPasswordConfirmation.cshtml",
@@ -288,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\ForgotPasswordConfirmation.cshtml",
@@ -301,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Models\\Accounts\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "CatGacha\\Models\\Accounts\\RegisterViewModel.cs",
@@ -314,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "AddPasswordViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Models\\Accounts\\AddPasswordViewModel.cs",
               "RelativeDocumentMoniker": "CatGacha\\Models\\Accounts\\AddPasswordViewModel.cs",
@@ -327,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "AddPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\AddPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\AddPasswordConfirmation.cshtml",
@@ -339,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Models\\Accounts\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "CatGacha\\Models\\Accounts\\LoginViewModel.cs",
@@ -351,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ChangePasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\ChangePasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\ChangePasswordConfirmation.cshtml",
@@ -363,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\ConfirmEmail.cshtml",
@@ -375,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "AddPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\AddPassword.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\AddPassword.cshtml",
@@ -387,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "ForgotPasswordViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Models\\Accounts\\ForgotPasswordViewModel.cs",
               "RelativeDocumentMoniker": "CatGacha\\Models\\Accounts\\ForgotPasswordViewModel.cs",
@@ -399,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ChangePasswordViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Models\\Accounts\\ChangePasswordViewModel.cs",
               "RelativeDocumentMoniker": "CatGacha\\Models\\Accounts\\ChangePasswordViewModel.cs",
@@ -411,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "AccountLocked.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Accounts\\AccountLocked.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Accounts\\AccountLocked.cshtml",
@@ -423,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "CatGacha\\Controllers\\AccountsController.cs",
@@ -435,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Program.cs",
               "RelativeDocumentMoniker": "CatGacha\\Program.cs",
@@ -447,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Users\\Index.cshtml",
@@ -459,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Inventory\\Index.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Inventory\\Index.cshtml",
@@ -471,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\appsettings.json",
               "RelativeDocumentMoniker": "CatGacha\\appsettings.json",
@@ -483,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Shared\\_Layout.cshtml",
@@ -495,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "CatGachaContext.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Data\\CatGachaContext.cs",
               "RelativeDocumentMoniker": "CatGacha.Data\\CatGachaContext.cs",
@@ -507,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "ValidEmailDomainAttribute.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Utilities\\ValidEmailDomainAttribute.cs",
               "RelativeDocumentMoniker": "CatGacha\\Utilities\\ValidEmailDomainAttribute.cs",
@@ -519,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "CatGacha.Core.csproj",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha.Core\\CatGacha.Core.csproj",
               "RelativeDocumentMoniker": "CatGacha.Core\\CatGacha.Core.csproj",
@@ -531,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "CatGacha.csproj",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\CatGacha.csproj",
               "RelativeDocumentMoniker": "CatGacha\\CatGacha.csproj",
@@ -543,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "CatOwnership.cs",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Models\\CatOwnership.cs",
               "RelativeDocumentMoniker": "CatGacha\\Models\\CatOwnership.cs",
@@ -555,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jyri.vaitmaa\\source\\repos\\CatGacha\\CatGacha\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CatGacha\\Views\\Home\\Index.cshtml",
