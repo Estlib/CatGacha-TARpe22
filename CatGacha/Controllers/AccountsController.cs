@@ -156,7 +156,30 @@ namespace CatGacha.Controllers
             return View();
         }
 
-        
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel fpm)
+        {
+            if(ModelState.IsValid)
+            {
+                var userThatForgotPassword = await _userManager.FindByEmailAsync(fpm.RecoveryEmail);
+                if(userThatForgotPassword != null && await _userManager.IsEmailConfirmedAsync(userThatForgotPassword))
+                {
+                    var token = await _userManager.GeneratePasswordResetTokenAsync(userThatForgotPassword);
+                    var passwordResetLink = Url.Action("ResetPassword", "Accounts", new { email = fpm.RecoveryEmail, token = token }, Request.Scheme);
+                    return View("ForgotPasswordConfirmation");
+                }
+                return View("ForgotPasswordConfirmation");
+            }
+            return View(fpm);
+        }
 
 
         [HttpGet]
