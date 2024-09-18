@@ -95,8 +95,59 @@ namespace CatGacha.Controllers
             return View(cpm);
         }
 
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> ResetPassword()
+        {
+            var userThatWantsToResetPassword = await _userManager.GetUserAsync(User);
+            var token = await _userManager.GeneratePasswordResetTokenAsync(userThatWantsToResetPassword);
 
+            if (token == null || userThatWantsToResetPassword.Email == null)
+            {
+                ModelState.AddModelError("", "Kehtetu salasõna lähtestuse token");
+            }
 
+            var rpm = new ResetPasswordViewModel
+            {
+                Token = token,
+                BackupEmail = userThatWantsToResetPassword.Email
+            };
+            return View(rpm);
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel rpm)
+        {
+            if (ModelState.IsValid)
+            {
+                var userThatWantsToResetPassword = await _userManager.FindByEmailAsync(rpm.BackupEmail);
+                if (userThatWantsToResetPassword != null)
+                {
+                    var result = await _userManager.ResetPasswordAsync(userThatWantsToResetPassword, rpm.Token, rpm.Password);
+
+                    if (result.Succeeded)
+                    {
+                        if(await _userManager.IsLockedOutAsync(userThatWantsToResetPassword))
+                        {
+                            await _userManager.SetLockoutEndDateAsync(userThatWantsToResetPassword, DateTimeOffset.UtcNow);
+                        }
+                        await _signInManager.SignOutAsync();
+                        await _userManager.DeleteAsync(userThatWantsToResetPassword);
+                        return RedirectToAction("ResetPasswordConfirmation", "Accounts");
+                    }
+
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+                    return RedirectToAction("ResetPasswordConfirmation", "Accounts");
+                }
+                await _userManager.DeleteAsync(userThatWantsToResetPassword);
+                return RedirectToAction("ResetPasswordConfirmation", "Accounts");
+            }
+            return RedirectToAction("ResetPasswordConfirmation", "Accounts");
+        }
 
 
         [HttpGet]
