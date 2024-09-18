@@ -63,6 +63,43 @@ namespace CatGacha.Controllers
         }
 
         [HttpGet]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel cpm)
+        {
+            if (ModelState.IsValid)
+            {
+                var userThatWantsNewPassword = await _userManager.GetUserAsync(User);
+                if (userThatWantsNewPassword == null)
+                {
+                    return RedirectToAction("Login");
+                }
+
+                var result = await _userManager.ChangePasswordAsync(userThatWantsNewPassword, cpm.CurrentPassword, cpm.NewPassword);
+
+                if (!result.Succeeded)
+                {
+                    foreach( var error in result.Errors )
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                    return View();
+                }
+                await _signInManager.RefreshSignInAsync(userThatWantsNewPassword);
+                return View("ChangePasswordConfirmation");
+            }
+            return View(cpm);
+        }
+
+
+
+
+
+        [HttpGet]
         public IActionResult Register()
         {
             return View();
