@@ -25,8 +25,42 @@ namespace CatGacha.Controllers
             _context = catGachaContext;
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> AddPassword();
+        [HttpGet]
+        public async Task<IActionResult> AddPassword()
+        {
+            var userWithoutPassword = await _userManager.GetUserAsync(User);
+            var userThatHasPassword = await _userManager.HasPasswordAsync(userWithoutPassword);
+
+            if (userThatHasPassword)
+            {
+                RedirectToAction("ChangePassword");
+            }
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> AddPassword(AddPasswordViewModel apm)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.GetUserAsync(User);
+                var result = await _userManager.AddPasswordAsync(user, apm.NewPassword);
+
+                if (!result.Succeeded)
+                {
+                    foreach ( var error in result.Errors )
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                    return View();
+                }
+
+                await _signInManager.RefreshSignInAsync(user);
+                return View("AddPasswordConfirmation");
+
+            }
+
+            return View();
+        }
 
         [HttpGet]
         public IActionResult Register()
@@ -74,6 +108,7 @@ namespace CatGacha.Controllers
             }
             return View();
         }
+
 
     }
 }
